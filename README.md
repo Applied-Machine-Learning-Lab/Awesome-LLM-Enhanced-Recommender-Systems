@@ -2,11 +2,26 @@
 
 ## 1. Knowledge Enhancement
 
-| Date / Venue | Model (Paper Link) | Knowledge Type        | Foundation Model (Finetuned/Non-finetuned) | Code |
-| ------------ | ------------------ | --------------------- | ------------------------------------------ | ---- |
-|              |                    | Summarize / KG / Both |                                            |      |
-|              |                    |                       |                                            |      |
-|              |                    |                       |                                            |      |
+| Date / Venue       | Model     | Paper                                                        | Knowledge Type            | Foundation Model (Finetuned/Non-finetuned)     | Code                                                         |
+| ------------------ | :-------- | ------------------------------------------------------------ | ------------------------- | ---------------------------------------------- | ------------------------------------------------------------ |
+| 2023.5 / WSDM'24   | ONCE      | [ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3616855.3635845) | Summarization & Reasoning | LLaMA-7B (F) + GPT-3.5 (N)                     | [Link](https://github.com/Jyonn/ONCE)                        |
+| 2023.6 / RecSys'24 | KAR       | [Towards Open-World Recommendation with Knowledge Augmentation from Large Language Models](https://arxiv.org/pdf/2306.10933) | Summarization & Reasoning | ChatGLM (N)                                    | [Link](https://github.com/YunjiaXi/Open-World-Knowledge-Augmented-Recommendation) |
+| 2023.8 / AAAI'24   | LLMRG     | [LLMRG: Improving Recommendations through Large Language Model Reasoning Graphs](https://ojs.aaai.org/index.php/AAAI/article/view/29887/31548) | Knowledge Graph           | GPT-4 (N) / GPT-3.5 (N)                        | N/A                                                          |
+| 2023.12 / arXiv'23 | SAGCN     | [Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models](https://arxiv.org/pdf/2312.16275) | Knowledge Graph           | Vicuna-13B (N)                                 | N/A                                                          |
+| 2024.1 / arXiv'24  | LLMHG     | [LLM-Guided Multi-View Hypergraph Learning for Human-Centric Explainable Recommendation](https://arxiv.org/pdf/2401.08217) | Knowledge Graph           | GPT-4 (N) / GPT-3.5 (N)                        | N/A                                                          |
+| 2024.2 / arXiv'24  | LLM-KERec | [Breaking the Barrier: Utilizing Large Language Models for Industrial Recommendation Systems through an Inferential Knowledge Graph](https://arxiv.org/pdf/2402.13750) | Knowledge Graph           | GPT-3.5 (N) / ChatGLM2 (N)                     | N/A                                                          |
+| 2024.3 / arXiv'24  | CSRec     | [Common Sense Enhanced Knowledge-based Recommendation with Large Language Model](https://arxiv.org/pdf/2403.18325) | Knowledge Graph           | GPT-3.5 (N)                                    | [Link](https://github.com/ysh-1998/CSRec)                    |
+| 2024.3 / arXiv'24  | KELLMRec  | [KELLMRec: Knowledge-Enhanced Large Language Models for Recommendation](https://arxiv.org/pdf/2403.06642) | Both                      | InternLM-7B (N)                                | N/A                                                          |
+| 2024.4 / ICASSP'24 | LAMAR     | [Large Language Models Augmented Rating Prediction in Recommender System](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10447514) | Summarization & Reasoning | LLaMA (N)                                      | [Link](https://github.com/sichunluo/LAMAR)                   |
+| 2024.5 / arXiv'24  |           | [News Recommendation with Category Description by a Large Language Model](https://arxiv.org/pdf/2405.13007) | Summarization & Reasoning | GPT-4 (N)                                      | [Link](https://github.com/yamanalab/gpt-augmented-news-recommendation) |
+| 2024.5 / SIGIRW'24 | LLM-BRec  | [LLM-BRec: Personalizing Session-based Social Recommendation with LLM-BERT Fusion Framework](https://openreview.net/pdf?id=gwHVlTNKsG) | Summarization & Reasoning | LLaMA2-7B (N)                                  | N/A                                                          |
+| 2024.5 / arXiv'24  | SKarREC   | [Learning Structure and Knowledge Aware Representation with Large Language Models for Concept Recommendation](https://arxiv.org/pdf/2405.12442) | Both                      | GPT-3.5 (N)                                    | N/A                                                          |
+| 2024.7 / arXiv'24  | LANE      | [LANE: Logic Alignment of Non-tuning Large Language Models and Online Recommendation Systems for Explainable Reason Generation](https://arxiv.org/pdf/2407.02833) | Summarization & Reasoning | GPT-3.5 (N)                                    | N/A                                                          |
+| 2024.7 / SIGIR'24  | SeRALM    | [Enhancing Sequential Recommenders with Augmented Knowledge from Aligned Large Language Models](https://dl.acm.org/doi/pdf/10.1145/3626772.3657782) | Summarization & Reasoning | LLaMA2-7B (F)                                  | N/A                                                          |
+| 2024.8 / ACLW'24   | HRGraph   | [HRGraph: Leveraging LLMs for HR Data Knowledge Graphs with Information Propagation-based Job Recommendation](https://aclanthology.org/2024.kallm-1.6.pdf) | Knowledge Graph           | unknown                                        | [Link](https://github.com/azminewasi/HRGraph)                |
+| 2024.8 / arXiv'24  | MMRec     | [MMREC: LLM Based Multi-Modal Recommender System](https://arxiv.org/pdf/2408.04211) | Summarization & Reasoning | GPT-3.5 (N)                                    | N/A                                                          |
+| 2024.8 / arXiv'24  | REKI      | [Efficient and Deployable Knowledge Infusion for Open-World Recommendations via Large Language Models](https://www.arxiv.org/pdf/2408.10520) | Summarization & Reasoning | GPT-3.5 (N)                                    | [Link](https://github.com/YunjiaXi/REKI?tab=readme-ov-file)  |
+| 2024.8 / arXiv'24  | X-REFLECT | [X-REFLECT: Cross-Reflection Prompting for Multimodal Recommendation](https://www.arxiv.org/pdf/2408.15172) | Summarization & Reasoning | GPT-4V (N) / LLaVA1.5-7B (N) / InternLM-7B (N) | N/A                                                          |
 
 ## 2. Interaction Enhancement
 
@@ -28,14 +43,3 @@
 |              |                    |                  |                                            |      |
 |              |                    |                  |                                            |      |
 
-### The weaknesses of existing LLM4Rec Surveys
-
-1. Most current surveys focus on investigating how to use the LLM as RS, while ignoring the aspect of enhancement.
-2. The surveys do not include most up-to-date papers, because this field is developing fastly.
-3. We categorize the LLM enhanced RS papers from technical view, which may be more practical.
-
-华为的两篇survey和我们的稍微有重合，但是很少。他们还是从LLM本身出发，但是我们需要提
-
-All Roads Lead to Rome: Unveiling the Trajectory of Recommender Systems Across the LLM Era
-
-How Can Recommender Systems Benefit from Large Language Models: A Survey
