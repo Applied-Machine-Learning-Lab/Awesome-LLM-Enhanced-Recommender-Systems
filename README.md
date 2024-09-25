@@ -1,5 +1,24 @@
 # Awesome LLM-Enhanced Recommender Systems
 
+
+
+## LLM4RS Survey
+
+| Date / Venue       | Paper                                                        | Institution                                 | Repo                                                       |
+| ------------------ | ------------------------------------------------------------ | ------------------------------------------- | ---------------------------------------------------------- |
+| 2023.6 / WWWJ'24   | [A Survey on Large Language Models for Recommendation](https://arxiv.org/pdf/2305.19860) | USTC, BOSS, HKUST                           | [Link](https://github.com/WLiK/LLM4Rec-Awesome-Papers)     |
+| 2023.6 / TOIS'24   | [How Can Recommender Systems Benefit from Large Language Models: A Survey](https://arxiv.org/pdf/2306.05817) | SJTU, Noah's Ark                            | [Link](https://github.com/CHIANGEL/Awesome-LLM-for-RecSys) |
+| 2023.7 / TKDE'24   | [Recommender Systems in the Era of Large Language Models (LLMs)](https://ieeexplore.ieee.org/abstract/document/10506571) | PolyU, NUDT, Amazon, CityU, MSU             | N/A                                                        |
+| 2023.7 / WWWJ'24   | [When Large Language Models Meet Personalization: Perspectives of Challenges and Opportunities](https://link.springer.com/content/pdf/10.1007/s11280-024-01276-1.pdf) | HKUST, BAAI, USTC, UESTC                    | N/A                                                        |
+| 2024.9 / COLING'24 | [Large Language Models for Generative Recommendation: A Survey and Visionary Discussions](https://arxiv.org/pdf/2309.01157) | HKBU, Rutgers                               | N/A                                                        |
+| 2024.2 / arXiv'24  | [Foundation Models for Recommender Systems: A Survey and New Perspectives](https://arxiv.org/pdf/2402.11143) | UNSW, Adobe, Gatech, ETH, CSIRO, UCSD       | N/A                                                        |
+| 2024.3 / arXiv'24  | [Exploring the Impact of Large Language Models on Recommender Systems: An Extensive Review](https://arxiv.org/pdf/2402.18590) | SCU, Stanford, CMU                          | N/A                                                        |
+| 2024.4 / arXiv'24  | [A Survey of Generative Search and Recommendation in the Era of Large Language Models](https://arxiv.org/pdf/2404.16924) | PolyU, NUS, USTC, CAS, HIT                  | N/A                                                        |
+| 2024.6 / arXiv'24  | [Survey for Landing Generative AI in Social and E-commerce Recsys – the Industry Perspectives](https://arxiv.org/pdf/2406.06475) | Linkdin, Amazon, Tiktok, Rutgers, Microsoft | N/A                                                        |
+| 2024.7 / arXiv'24  | [All Roads Lead to Rome: Unveiling the Trajectory of Recommender Systems Across the LLM Era](https://arxiv.org/pdf/2407.10081) | Noah's Ark                                  | N/A                                                        |
+
+[Awesome-LLM4RS-Papers](https://github.com/nancheng58/Awesome-LLM4RS-Papers) 
+
 ## 1. Knowledge Enhancement
 
 | Date / Venue       | Model     | Paper                                                        | Knowledge Type            | Foundation Model (Finetuned/Non-finetuned)     | Code                                                         |
@@ -10,6 +29,7 @@
 | 2023.12 / arXiv'23 | SAGCN     | [Understanding Before Recommendation: Semantic Aspect-Aware Review Exploitation via Large Language Models](https://arxiv.org/pdf/2312.16275) | Knowledge Graph           | Vicuna-13B (N)                                 | N/A                                                          |
 | 2024.1 / arXiv'24  | LLMHG     | [LLM-Guided Multi-View Hypergraph Learning for Human-Centric Explainable Recommendation](https://arxiv.org/pdf/2401.08217) | Knowledge Graph           | GPT-4 (N) / GPT-3.5 (N)                        | N/A                                                          |
 | 2024.2 / arXiv'24  | LLM-KERec | [Breaking the Barrier: Utilizing Large Language Models for Industrial Recommendation Systems through an Inferential Knowledge Graph](https://arxiv.org/pdf/2402.13750) | Knowledge Graph           | GPT-3.5 (N) / ChatGLM2 (N)                     | N/A                                                          |
+| 2024.2 / arXiv'24  | GaCLLM    | [Large Language Model with Graph Convolution for Recommendation](https://arxiv.org/pdf/2402.08859) | Summarization & Reasoning | ChatGLM2-6B (F)                                | N/A                                                          |
 | 2024.3 / arXiv'24  | CSRec     | [Common Sense Enhanced Knowledge-based Recommendation with Large Language Model](https://arxiv.org/pdf/2403.18325) | Knowledge Graph           | GPT-3.5 (N)                                    | [Link](https://github.com/ysh-1998/CSRec)                    |
 | 2024.3 / arXiv'24  | KELLMRec  | [KELLMRec: Knowledge-Enhanced Large Language Models for Recommendation](https://arxiv.org/pdf/2403.06642) | Both                      | InternLM-7B (N)                                | N/A                                                          |
 | 2024.4 / ICASSP'24 | LAMAR     | [Large Language Models Augmented Rating Prediction in Recommender System](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10447514) | Summarization & Reasoning | LLaMA (N)                                      | [Link](https://github.com/sichunluo/LAMAR)                   |
@@ -37,9 +57,24 @@
 
 ## 3. Model Enhancement
 
-| Date / Venue | Model (Paper Link) | Integration Type | Foundation Model (Finetuned/Non-finetuned) | Code |
-| ------------ | ------------------ | ---------------- | ------------------------------------------ | ---- |
-|              |                    |                  |                                            |      |
-|              |                    |                  |                                            |      |
-|              |                    |                  |                                            |      |
+| Date / Venue        | Model   | Paper                                                        | Integration Type      | Foundation Model (Finetuned/Non-finetuned) | Code                                                         |
+| ------------------- | ------- | ------------------------------------------------------------ | --------------------- | ------------------------------------------ | ------------------------------------------------------------ |
+| 2023.8 / arXiv'23   | CTRL    | [CTRL: Connect Collaborative and Language Model for CTR Prediction](https://arxiv.org/pdf/2306.02841v4) | Model Initialization  | ChatGLM-6B (F)                             | N/A                                                          |
+| 2023.9 / RecSys'23  |         | [Leveraging Large Language Models for Sequential Recommendation](https://dl.acm.org/doi/pdf/10.1145/3604915.3610639) | Model Initialization  | text-embedding-ada-002 (N)                 | [Link](https://github.com/dh-r/LLM-Sequential-Recommendation) |
+| 2023.10 / RecSys'24 | FLIP    | [FLIP: Towards Fine-grained Alignment between ID-based Models and Pretrained Language Models for CTR Prediction](https://arxiv.org/pdf/2310.19453) | Model Initialization  | TinyBERT                                   | [Link](https://github.com/justarter/FLIP)                    |
+| 2023.10 / WWW'24    | RLMRec  | [Representation Learning with Large Language Models for Recommendation](https://dl.acm.org/doi/pdf/10.1145/3589334.3645458) | Embedding Guidance    | text-embedding-ada-002 (N) + GPT-3.5 (N)   | [Link](https://github.com/HKUDS/RLMRec)                      |
+| 2023.11 / WWW'24    | SINGLE  | [Modeling User Viewing Flow using Large Language Models for Article Recommendation](https://dl.acm.org/doi/pdf/10.1145/3589335.3648305) | Embedding Utilization | ChatGLM-6B (F)                             | N/A                                                          |
+| 2024.2 / arXiv'24   | LEADER  | [Large Language Model Distilling Medication Recommendation Model](https://arxiv.org/pdf/2402.02803) | Model Distillation    | LLaMA-7B (F)                               | [Link](https://github.com/liuqidong07/LEADER-pytorch)        |
+| 2024.2 / arXiv'24   | LLM2X   | [Improving Sequential Recommendations with LLMs](https://arxiv.org/pdf/2402.01339) | Model Initialization  | text-embedding-ada-002 (N)                 | [Link](https://github.com/dh-r/LLM-Sequential-Recommendation) |
+| 2024.2 / arXiv'24   | LLM4SBR | [LLM4SBR: A Lightweight and Effective Framework for Integrating Large Language Models in Session-based Recommendation](https://arxiv.org/pdf/2402.13840) | Embedding Guidance    | QWen-7B (N)                                | N/A                                                          |
+| 2024.2 / arXiv'24   | TedRec  | [Sequence-level Semantic Representation Fusion for Recommender Systems](https://arxiv.org/pdf/2402.18166) | Embedding Utilization | LLaMA2-7B (N), T5 (N)                      | [Link](https://github.com/RUCAIBox/TedRec)                   |
+| 2024.3 / CIKM'24    | LLM-CF  | [Large Language Models Enhanced Collaborative Filtering](https://arxiv.org/pdf/2403.17688) | Embedding Utilization | LLaMA2-7B (F)                              | [Link](https://anonymous.4open.science/r/LLM-CF-AD78/readme.md) |
+| 2024.3 / CIKM'24    | LoID    | [Enhancing Content-based Recommendation via Large Language Model](https://arxiv.org/pdf/2404.00236) | Embedding Utilization | BERT (F)                                   | [Link](https://github.com/cjx96/LoID)                        |
+| 2024.3 / arXiv'24   | LSVCR   | [A Large Language Model Enhanced Sequential Recommender for Joint Video and Comment Recommendation](https://arxiv.org/pdf/2403.13574) | Embedding Utilization | ChatGLM3-6B (F)                            | [Link](https://github.com/RUCAIBox/LSVCR/)                   |
+| 2024.3 / SIGIR'24   | BAHE    | [Breaking the Length Barrier: LLM-Enhanced CTR Prediction in Long Textual User Behaviors](https://dl.acm.org/doi/pdf/10.1145/3626772.3657974) | Embedding Utilization | QWen-8B (F)                                | N/A                                                          |
+| 2024.3 / SIGIR'24   | LRD     | [Sequential Recommendation with Latent Relations based on Large Language Model](https://dl.acm.org/doi/pdf/10.1145/3626772.3657762) | Embedding Utilization | text-embedding-ada-002 (N)                 | [Link](https://github.com/ysh-1998/LRD)                      |
+| 2024.3 / WWW'24     | SLIM    | [Can Small Language Models be Good Reasoners for Sequential Recommendation?](https://dl.acm.org/doi/pdf/10.1145/3589334.3645671) | Model Initialization  | LLaMA2-7B (F)                              | N/A                                                          |
+| 2024.3 / WWW'24     | NoteLLM | [NoteLLM: A Retrievable Large Language Model for Note Recommendation](https://dl.acm.org/doi/pdf/10.1145/3589335.3648314) | Embedding Utilization | LLaMA2-7B (F)                              | N/A                                                          |
+|                     |         |                                                              |                       |                                            |                                                              |
+|                     |         |                                                              |                       |                                            |                                                              |
 
