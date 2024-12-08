@@ -8,7 +8,7 @@ Due to the latency requirements by the online recommenders, LLMERS has gained co
 
 ⭐️ __Category__: LLMERS augments the conventional RS from its basic components, i.e., interaction data and recommendation model, so that  we categorize them into three lines: Knowledge Enhancement, Interaction Enhancement and Model Enhancement.
 
-<div align=center><img src="./Taxonomy.png" style="zoom:80%;" />
+<img src="./Taxonomy.png" style="zoom:80%;" />
 
 ## 1. Knowledge Enhancement
 
